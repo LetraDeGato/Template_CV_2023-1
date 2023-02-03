@@ -1,9 +1,4 @@
-/**
-* Template Name: iPortfolio - v3.10.0
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function() {
   "use strict";
 
@@ -71,10 +66,11 @@
     })
   }
 
+  const newLocal = '.back-to-top';
   /**
    * Back to top button
    */
-  let backtotop = select('.back-to-top')
+  let backtotop = select(newLocal)
   if (backtotop) {
     const toggleBacktotop = () => {
       if (window.scrollY > 100) {
